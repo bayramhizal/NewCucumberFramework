@@ -1,0 +1,62 @@
+Cucumber Framework Oluşturma
+-pom.xml
+	*selenium, cucumber (cucumber-java, cucumber-junit), webdrivermanager
+-properties file
+-utilities
+	*driver,configreader
+-pages
+
+-------------------------------------------------------
+// cucumber frameworkun 4 ana bileşeni vardır.
+-feature file					(dosya)
+	*resources -> features -> istedigimisimde.feature
+-stepdefinitions				(paket)
+-runners						(paket)
+-hook class (@Before @After) 	(class)
+-------------------------------------------------------
+
+1. Adım
+- Kütüphaneleri projemize import edelim.
+	selenium,
+	cucumber (cucumber-java, cucumber-junit),
+	webdrivermanager
+
+2. Adım
+- Projemize sağ tıklayalım -> new -> file seçelim ve isim verelim
+	config.properties
+
+3. Adım
+- java klasörünün dosya yolu -> "src/test/java"
+- java klasörüne sağ tıklayalım -> new -> Package seçelim
+	ilk önce - utilities yazalım ve paketimizi oluşturalım.
+	* daha sonra utilities sağ tıklayalım Driver classı oluşturalım.
+	* daha sonra utilities sağ tıklayalım ConfigurationReader class olştlm.
+
+4. Adım
+- java klasörünün dosya yolu -> "src/test/java"
+- java klasörüne sağ tıklayalım -> new -> Package seçelim
+	pages yazalım ve paketimizi oluşturalım.
+
+5. Adım
+- java klasörünün dosya yolu -> "src/test/java"
+- java klasörüne sağ tıklayalım -> new -> Package seçelim
+	stepdefinitions yazalım ve paketimizi oluşturalım.
+
+6. Adım
+- java klasörünün dosya yolu -> "src/test/java"
+- java klasörüne sağ tıklayalım -> new -> Package seçelim
+	runners yazalım ve paketimizi oluşturalım.
+
+7. Adım
+- test klasörünün dosya yolu -> "src/test"
+- test klasörüne sağ tıklayalım -> new -> directory
+	resources yazalım ve klasörümüzü oluşturalım
+- resources'a sağ tıklayalım ve new -> directory seçelim
+	features yazalım ve klasörümüzü oluşturalım
+- features'a sağ tıklayalım ve new -> file seçelim
+	ilkdosyam.feature yazalım ve dosyamızı oluşturalım.
+
+8. Adım
+- stepdefinitions klasörünün dosya yolu -> "src/test/java/stepdefinitions"
+- stepdefinitions klasörüne sağ tıklayalım -> new -> Java Class'ı seçelim
+	Hooks ismini verelim ve classımızı oluşturalım.
