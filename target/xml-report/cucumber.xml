@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="9.424">
+<testcase classname="Googleda arama yapma" name="TC01_kullanici googleda arama yapar" time="8.482">
+<failure message="" type="java.lang.AssertionError"><![CDATA[Given kullanici google sayfasindadir........................................passed
+And kullanici kemal ozden aramasi yapar.....................................passed
+Then arama sayfasinin basligi dogrulanir....................................failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepdefinitions.GoogleAramaStepDefinitions.arama_sayfasinin_basligi_dogrulanir(GoogleAramaStepDefinitions.java:26)
+	at ✽.arama sayfasinin basligi dogrulanir(file:///C:/Users/isimsiz/IdeaProjects/NewCucumberFramework/src/test/resources/features/ilkdosya.feature:7)
+]]></failure>
+</testcase>
+</testsuite>
