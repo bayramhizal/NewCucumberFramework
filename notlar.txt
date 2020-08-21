@@ -60,3 +60,10 @@ Cucumber Framework Oluşturma
 - stepdefinitions klasörünün dosya yolu -> "src/test/java/stepdefinitions"
 - stepdefinitions klasörüne sağ tıklayalım -> new -> Java Class'ı seçelim
 	Hooks ismini verelim ve classımızı oluşturalım.
+
+
+---------------------------
+1 - ilk önce bir tane feature file oluşturalım.
+2 - stepdefinitions paketi altında YoutubeVideoBilgileriStepDefinitions class'ı oluşturalım.
+3 - Runner class'ında dryRun=true yaparak, konsoldan gherkin language şeklinde yazılmış methodları kopyalayalım.
+4 - pages paketinin altında YouTubePage diye bir tane class oluşturalım.
