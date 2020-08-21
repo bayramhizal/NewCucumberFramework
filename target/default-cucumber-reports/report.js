@@ -1,21 +1,21 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/ilkdosya.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/youtube.feature");
 formatter.feature({
-  "name": "Googleda arama yapma",
+  "name": "Youtubeda videonun izlenme sayısını bulma",
   "description": "",
   "keyword": "Feature",
   "tags": [
     {
-      "name": "@googlearama"
+      "name": "@youtube"
     }
   ]
 });
 formatter.scenario({
-  "name": "TC01_kullanici googleda arama yapar",
+  "name": "TC02_kullanıcı youtubeda bir videoyu açar ve izlenme sayısını alır",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@googlearama"
+      "name": "@youtube"
     }
   ]
 });
@@ -23,37 +23,45 @@ formatter.before({
   "status": "passed"
 });
 formatter.step({
-  "name": "kullanici google sayfasindadir",
+  "name": "kullanici youtubea gider",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "stepdefinitions.GoogleAramaStepDefinitions.kullanici_google_sayfasindadir()"
+  "location": "stepdefinitions.YoutubeVideoBilgileriStepDefinitions.kullanici_youtubea_gider()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "kullanici kemal ozden aramasi yapar",
+  "name": "kullanici techproed aramasi yapar",
   "keyword": "And "
 });
 formatter.match({
-  "location": "stepdefinitions.GoogleAramaStepDefinitions.kullanici_kemal_ozden_aramasi_yapar()"
+  "location": "stepdefinitions.YoutubeVideoBilgileriStepDefinitions.kullanici_techproed_aramasi_yapar()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "arama sayfasinin basligi dogrulanir",
+  "name": "kullanici bir videoya tiklar",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepdefinitions.YoutubeVideoBilgileriStepDefinitions.kullanici_bir_videoya_tiklar()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "kullanici videonun bilgilerini alir",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "stepdefinitions.GoogleAramaStepDefinitions.arama_sayfasinin_basligi_dogrulanir()"
+  "location": "stepdefinitions.YoutubeVideoBilgileriStepDefinitions.kullanici_videonun_bilgilerini_alir()"
 });
 formatter.result({
-  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.assertTrue(Assert.java:42)\r\n\tat org.junit.Assert.assertTrue(Assert.java:53)\r\n\tat stepdefinitions.GoogleAramaStepDefinitions.arama_sayfasinin_basligi_dogrulanir(GoogleAramaStepDefinitions.java:26)\r\n\tat ✽.arama sayfasinin basligi dogrulanir(file:///C:/Users/isimsiz/IdeaProjects/NewCucumberFramework/src/test/resources/features/ilkdosya.feature:7)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
-formatter.embedding("image/png", "embedded0.png", null);
 formatter.after({
   "status": "passed"
 });

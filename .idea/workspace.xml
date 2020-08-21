@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="613b4ed2-520b-4054-aff1-3050ff61bc5b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/YouTube.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/YoutubeVideoBilgileriStepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/youtube.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/GoogleAramaRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/json-reports/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/json-reports/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runners/GoogleAramaRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/GoogleAramaStepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefinitions/GoogleAramaStepDefinitions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/xml-report/cucumber.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/xml-report/cucumber.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +52,7 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunManager">
-    <configuration name="GoogleAramaRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="NewCucumberFramework" />
       <extension name="coverage">
         <pattern>
@@ -52,7 +61,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="runners" />
-      <option name="MAIN_CLASS_NAME" value="runners.GoogleAramaRunner" />
+      <option name="MAIN_CLASS_NAME" value="runners.Runner" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -82,22 +91,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="334" y="292" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1597164972302" />
-    <state width="1322" height="174" key="GridCell.Tab.0.bottom" timestamp="1597167118036">
+    <state width="1322" height="257" key="GridCell.Tab.0.bottom" timestamp="1598028857289">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1597167118036" />
-    <state width="1322" height="174" key="GridCell.Tab.0.center" timestamp="1597167118035">
+    <state width="1322" height="257" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1598028857289" />
+    <state width="1322" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597337814899" />
+    <state width="1322" height="257" key="GridCell.Tab.0.center" timestamp="1598028857288">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1597167118035" />
-    <state width="1322" height="174" key="GridCell.Tab.0.left" timestamp="1597167118035">
+    <state width="1322" height="257" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1598028857288" />
+    <state width="1322" height="174" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597337814899" />
+    <state width="1322" height="257" key="GridCell.Tab.0.left" timestamp="1598028857288">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1597167118035" />
-    <state width="1322" height="174" key="GridCell.Tab.0.right" timestamp="1597167118035">
+    <state width="1322" height="257" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1598028857288" />
+    <state width="1322" height="174" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597337814898" />
+    <state width="1322" height="257" key="GridCell.Tab.0.right" timestamp="1598028857288">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1597167118035" />
+    <state width="1322" height="257" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1598028857288" />
+    <state width="1322" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597337814899" />
     <state x="186" y="0" key="SettingsEditor" timestamp="1597164739720">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

@@ -13,12 +13,12 @@ import org.junit.runner.RunWith;
         },
         features = "src/test/resources/features",
         glue = "stepdefinitions",
-        tags = "@googlearama",
+        tags = "@youtube",
         dryRun = false
 
 )
 
 
-public class GoogleAramaRunner {
+public class Runner {
 
 }
